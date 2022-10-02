@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- font-family: 'Playfair Display', serif; -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/circe.css" />
+    <link rel="stylesheet" href="./css/classica_one.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/create.css" />
+  </head>
+  <body>
+    <section class="first_section">
+      <div class="main_container">
+        <header class="main_header">
+          <div class="main_header_soc_line">
+            <div class="main_header_soc_wrapper">
+              <img src="./img/inst_icn.svg" alt="Inst" class="main_header_soc" />
+            </div>
+            <div class="main_header_soc_wrapper">
+              <img src="./img/vk_icn.svg" alt="Vk" class="main_header_soc" />
+            </div>
+            <div class="main_header_soc_wrapper">
+              <img src="./img/tg_icn.svg" alt="Tg" class="main_header_soc" />
+            </div>
+          </div>
+          <div class="main_header__main_logo_wrapper">
+            <img src="./img/logo_main.svg" alt="Logo" class="main_header__main_logo" />
+          </div>
+          <div class="main_header__phone">+7 915 003 22 34</div>
+        </header>
+        <nav class="main_nav">
+          <a href="index.html" class="main_nav_link">Главная</a>
+          <a href="./char.html" class="main_nav_link">Характеристика</a>
+          <a href="./create.html" class="main_nav_link">Заказать</a>
+        </nav>
+        <div class="char_headline">Создайте свой continental gt</div>
+        <!-- <div class="create_btn">Создать</div> -->
+      </div>
+    </section>
+    <section class="create_line_wrapper" data-aos="fade-left">
+      <div class="create_line">
+        <img src="./img/create_cars.png" alt="" class="create_cars" />
+      </div>
+    </section>
+    <section class="create_interface_wrapper" data-aos="fade-down">
+      <div class="create_container">
+        <div class="create_cont_headline" id="cat_text">Цвет</div>
+        <div class="colors_and_car_wrapper">
+          <div class="left_arrow arrow">
+            <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+          </div>
+          <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+            <div class="colors_line_wrapper">
+              <div class="colors_color_wrapper">
+                <div class="colors_color color_mag colors_color_js"></div>
+                <div class="colors_text">Magnetic</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color color_ice colors_color_js"></div>
+                <div class="colors_text">Ice</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color color_red colors_color_js"></div>
+                <div class="colors_text">Candy Red -<br />by Mulliner</div>
+              </div>
+            </div>
+            <div class="colors_line_wrapper">
+              <div class="colors_color_wrapper">
+                <div class="colors_color color_jet colors_color_js"></div>
+                <div class="colors_text">Jetstream II</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color color_alpine colors_color_js"></div>
+                <div class="colors_text">Alpine Green</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color color_magnolia colors_color_js"></div>
+                <div class="colors_text">Magnolia (Solid)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+            <div class="colors_line_wrapper">
+              <div class="colors_color_wrapper">
+                <div class="colors_color wheels_cat"></div>
+                <div class="colors_text">Left-hand</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color wheels_cat"></div>
+                <div class="colors_text">Right-hand</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+            <div class="colors_line_wrapper">
+              <div class="colors_color_wrapper">
+                <div class="colors_color saloon_color saloon_1"></div>
+                <div class="colors_text">Black</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color saloon_color saloon_2"></div>
+                <div class="colors_text">Black and Red (1)</div>
+              </div>
+            </div>
+            <div class="colors_line_wrapper">
+              <div class="colors_color_wrapper">
+                <div class="colors_color saloon_color saloon_3"></div>
+                <div class="colors_text">Black and Red (2)</div>
+              </div>
+              <div class="colors_color_wrapper">
+                <div class="colors_color saloon_color saloon_4"></div>
+                <div class="colors_text">Red</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="right_arrow arrow">
+            <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+          </div>
+          <div class="car_table_wrapper">
+            <img src="./img/create_car.png" alt="" class="car_create_car" />
+          </div>
+        </div>
+      </div>
+      <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+    </section>
+    <div id="ex1" class="modal">
+      <a href="#" rel="modal:close"></a>
+      <div class="create_cont_headline know_price">Узнать цену</div>
+      <div class="inputs_wrapper">
+        <div class="input_wrapper">
+          <input type="text" placeholder="Имя" required />
+        </div>
+        <div class="input_wrapper">
+          <input type="text" placeholder="Фамилия" required />
+        </div>
+        <div class="input_wrapper">
+          <input type="phone" placeholder="Телефон" required />
+        </div>
+        <div class="input_wrapper">
+          <input type="email" placeholder="email" required />
+        </div>
+
+        <div class="price_btn send">Отправить</div>
+      </div>
+    </div>
+    <footer>
+      <div class="main_container">
+        <div class="footer_logo">
+          <img src="./img/footer_logo.png" alt="FooterLogo" class="footer_logo_img" />
+        </div>
+        <div class="footer_links">
+          <a href="/index.html" class="footer_link">главная</a>
+          <a href="/char.html" class="footer_link">характеристика</a>
+          <a href="/create.html" class="footer_link">заказать</a>
+          <a href="#" class="footer_link">Условия и положения</a>
+          <a href="#" class="footer_link">Политика конфиденциальности</a>
+        </div>
+
+        <div class="footer_contacts">
+          <div class="footer_soc_wrapper">
+            <div class="main_header_soc_wrapper">
+              <img src="./img/inst_icn.svg" alt="Inst" class="main_header_soc" />
+            </div>
+            <div class="main_header_soc_wrapper">
+              <img src="./img/vk_icn.svg" alt="Vk" class="main_header_soc" />
+            </div>
+            <div class="main_header_soc_wrapper">
+              <img src="./img/tg_icn.svg" alt="Tg" class="main_header_soc" />
+            </div>
+          </div>
+          <div class="footer_contacts_text_wrapper">
+            <div class="footer_phone">+7 915 003 22 34</div>
+            <div class="footer_cop">© Copyright Bentley Motors 2022</div>
+          </div>
+        </div>
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <!-- jQuery Modal -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+      <script src="./js/script.js"></script>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Classica One';
+	src: url('../fonts/classica_one.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/classica_one.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/classica_one.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/classica_one.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/classica_one.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/classica_one.svg#classica_one') format('svg'); /* Chrome < 4, Legacy iOS */
+}
