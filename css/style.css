@@ -254,6 +254,11 @@ section {
   font-family: "Circe";
   color: #000000;
   cursor: pointer;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+.footer_link:hover {
+  border-bottom: 1px solid #000000;
 }
 .footer_contacts {
   display: flex;
@@ -303,4 +308,25 @@ footer {
 }
 .second_section_img_03 {
   margin-left: 110px;
+}
+
+/* ======= timeline */
+.element-animation {
+  
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+  transform: translateX(-200px);
+}
+.element-animation-r {
+  
+  /* Скроем элемент в начальном состоянии */
+  opacity: 0;
+  transform: translateX(200px);
+}
+
+.element-animation.element-show,
+.element-animation-r.element-show {
+  opacity: 1;
+  transition: all 1s;
+  transform: translateX(0%);
 }
