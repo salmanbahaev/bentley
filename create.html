@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
     <!-- font-family: 'Playfair Display', serif; -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/circe.css" />
     <link rel="stylesheet" href="./css/classica_one.css" />
@@ -44,12 +46,648 @@
         <!-- <div class="create_btn">Создать</div> -->
       </div>
     </section>
-    <section class="create_line_wrapper" data-aos="fade-left">
-      <div class="create_line">
-        <img src="./img/create_cars.png" alt="" class="create_cars" />
-      </div>
+
+    <section class="wrap-ul">
+      <ul class="nav nav-pills" id="pills-tab" role="tablist">
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link active" id="car-1-tab" data-toggle="pill" href="#car-1" role="tab" aria-controls="car-1" aria-selected="true">
+            <div class="car-wrapper">
+              <img src="./img/car-1.png" alt="">
+            </div>
+            <p>Continental gt mulliner</p>
+          </a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="car-2-tab" data-toggle="pill" href="#car-2" role="tab" aria-controls="car-2" aria-selected="false">
+            <div class="car-wrapper">
+              <img src="./img/car-2.png" alt="">
+            </div>
+            <p>Continental gtc mulliner</p>
+          </a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="car-3-tab" data-toggle="pill" href="#car-3" role="tab" aria-controls="car-3" aria-selected="false">
+            <div class="car-wrapper">
+              <img src="./img/car-3.png" alt="">
+            </div>
+            <p>Continental gt speed</p>
+          </a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="car-4-tab" data-toggle="pill" href="#car-4" role="tab" aria-controls="car-4" aria-selected="false">
+            <div class="car-wrapper">
+              <img src="./img/car-4.png" alt="">
+            </div>
+            <p>Continental gtc speed</p>
+          </a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="car-5-tab" data-toggle="pill" href="#car-5" role="tab" aria-controls="car-5" aria-selected="false">
+            <div class="car-wrapper">
+              <img src="./img/car-5.png" alt="">
+            </div>
+            <p>Continental gt v8</p>
+          </a>
+        </li>
+
+        <li class="nav-item" role="presentation">
+          <a class="nav-link" id="car-6-tab" data-toggle="pill" href="#car-6" role="tab" aria-controls="car-6" aria-selected="false">
+            <div class="car-wrapper">
+              <img src="./img/car-6.png" alt="">
+            </div>
+            <p>Continental gtc v8</p>
+          </a>
+        </li>
+
+      </ul>
     </section>
-    <section class="create_interface_wrapper" data-aos="fade-down">
+
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="car-1" role="tabpanel" aria-labelledby="car-1-tab">
+        <div class="create_interface_wrapper" data-aos="fade-down">
+          <div class="create_container">
+            <div class="create_cont_headline" id="cat_text">Цвет</div>
+            <div class="colors_and_car_wrapper">
+              <div class="left_arrow arrow">
+                <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+              </div>
+              <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_mag colors_color_js"></div>
+                    <div class="colors_text">Caspian</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_ice colors_color_js"></div>
+                    <div class="colors_text">Cool Stone</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_red colors_color_js"></div>
+                    <div class="colors_text">Arctic Plain</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_jet colors_color_js"></div>
+                    <div class="colors_text">Luxuriant <br> Depth</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-1"></div>
+                    <div class="colors_text">Left-hand</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-2"></div>
+                    <div class="colors_text">Right-hand</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-1"></div>
+                    <div class="colors_text">Black</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-2"></div>
+                    <div class="colors_text">Black and Red (1)</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-3"></div>
+                    <div class="colors_text">Black and Red (2)</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-4"></div>
+                    <div class="colors_text">Red</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="right_arrow arrow">
+                <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+              </div>
+              <div class="car_table_wrapper">
+                <div class="carrr">
+                  <div class="car-wrap car-wrap-1-1"><img src="./img/car-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-2"><img src="./img/car-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-3"><img src="./img/car-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-4"><img src="./img/car-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="wheelll">
+                  <div class="wheel-wrap wheel-wrap-1-1"><img src="./img/wheel-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="wheel-wrap wheel-wrap-1-2"><img src="./img/wheel-1-2.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="salonnn">
+                  <div class="salon-wrap salon-wrap-1-1"><img src="./img/salon-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-2"><img src="./img/salon-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-3"><img src="./img/salon-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-4"><img src="./img/salon-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="car-2" role="tabpanel" aria-labelledby="car-2-tab">
+        <div class="create_interface_wrapper" data-aos="fade-down">
+          <div class="create_container">
+            <div class="create_cont_headline" id="cat_text">Цвет</div>
+            <div class="colors_and_car_wrapper">
+              <div class="left_arrow arrow">
+                <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+              </div>
+              <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_mag colors_color_js"></div>
+                    <div class="colors_text">Caspian</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_ice colors_color_js"></div>
+                    <div class="colors_text">Cool Stone</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_red colors_color_js"></div>
+                    <div class="colors_text">Arctic Plain</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_jet colors_color_js"></div>
+                    <div class="colors_text">Luxuriant <br> Depth</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-1"></div>
+                    <div class="colors_text">Left-hand</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-2"></div>
+                    <div class="colors_text">Right-hand</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-1"></div>
+                    <div class="colors_text">Black</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-2"></div>
+                    <div class="colors_text">Black and Red (1)</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-3"></div>
+                    <div class="colors_text">Black and Red (2)</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-4"></div>
+                    <div class="colors_text">Red</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="right_arrow arrow">
+                <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+              </div>
+              <div class="car_table_wrapper">
+                <div class="carrr">
+                  <div class="car-wrap car-wrap-1-1"><img src="./img/car-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-2"><img src="./img/car-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-3"><img src="./img/car-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-4"><img src="./img/car-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="wheelll">
+                  <div class="wheel-wrap wheel-wrap-1-1"><img src="./img/wheel-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="wheel-wrap wheel-wrap-1-2"><img src="./img/wheel-1-2.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="salonnn">
+                  <div class="salon-wrap salon-wrap-1-1"><img src="./img/salon-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-2"><img src="./img/salon-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-3"><img src="./img/salon-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-4"><img src="./img/salon-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="car-3" role="tabpanel" aria-labelledby="car-3-tab">
+        <div class="create_interface_wrapper" data-aos="fade-down">
+          <div class="create_container">
+            <div class="create_cont_headline" id="cat_text">Цвет</div>
+            <div class="colors_and_car_wrapper">
+              <div class="left_arrow arrow">
+                <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+              </div>
+              <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_mag colors_color_js"></div>
+                    <div class="colors_text">Caspian</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_ice colors_color_js"></div>
+                    <div class="colors_text">Cool Stone</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_red colors_color_js"></div>
+                    <div class="colors_text">Arctic Plain</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_jet colors_color_js"></div>
+                    <div class="colors_text">Luxuriant <br> Depth</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-1"></div>
+                    <div class="colors_text">Left-hand</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-2"></div>
+                    <div class="colors_text">Right-hand</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-1"></div>
+                    <div class="colors_text">Black</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-2"></div>
+                    <div class="colors_text">Black and Red (1)</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-3"></div>
+                    <div class="colors_text">Black and Red (2)</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-4"></div>
+                    <div class="colors_text">Red</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="right_arrow arrow">
+                <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+              </div>
+              <div class="car_table_wrapper">
+                <div class="carrr">
+                  <div class="car-wrap car-wrap-1-1"><img src="./img/car-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-2"><img src="./img/car-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-3"><img src="./img/car-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-4"><img src="./img/car-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="wheelll">
+                  <div class="wheel-wrap wheel-wrap-1-1"><img src="./img/wheel-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="wheel-wrap wheel-wrap-1-2"><img src="./img/wheel-1-2.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="salonnn">
+                  <div class="salon-wrap salon-wrap-1-1"><img src="./img/salon-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-2"><img src="./img/salon-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-3"><img src="./img/salon-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-4"><img src="./img/salon-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="car-4" role="tabpanel" aria-labelledby="car-4-tab">
+        <div class="create_interface_wrapper" data-aos="fade-down">
+          <div class="create_container">
+            <div class="create_cont_headline" id="cat_text">Цвет</div>
+            <div class="colors_and_car_wrapper">
+              <div class="left_arrow arrow">
+                <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+              </div>
+              <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_mag colors_color_js"></div>
+                    <div class="colors_text">Caspian</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_ice colors_color_js"></div>
+                    <div class="colors_text">Cool Stone</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_red colors_color_js"></div>
+                    <div class="colors_text">Arctic Plain</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_jet colors_color_js"></div>
+                    <div class="colors_text">Luxuriant <br> Depth</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-1"></div>
+                    <div class="colors_text">Left-hand</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-2"></div>
+                    <div class="colors_text">Right-hand</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-1"></div>
+                    <div class="colors_text">Black</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-2"></div>
+                    <div class="colors_text">Black and Red (1)</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-3"></div>
+                    <div class="colors_text">Black and Red (2)</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-4"></div>
+                    <div class="colors_text">Red</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="right_arrow arrow">
+                <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+              </div>
+              <div class="car_table_wrapper">
+                <div class="carrr">
+                  <div class="car-wrap car-wrap-1-1"><img src="./img/car-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-2"><img src="./img/car-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-3"><img src="./img/car-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-4"><img src="./img/car-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="wheelll">
+                  <div class="wheel-wrap wheel-wrap-1-1"><img src="./img/wheel-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="wheel-wrap wheel-wrap-1-2"><img src="./img/wheel-1-2.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="salonnn">
+                  <div class="salon-wrap salon-wrap-1-1"><img src="./img/salon-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-2"><img src="./img/salon-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-3"><img src="./img/salon-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-4"><img src="./img/salon-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="car-5" role="tabpanel" aria-labelledby="car-5-tab">
+        <div class="create_interface_wrapper" data-aos="fade-down">
+          <div class="create_container">
+            <div class="create_cont_headline" id="cat_text">Цвет</div>
+            <div class="colors_and_car_wrapper">
+              <div class="left_arrow arrow">
+                <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+              </div>
+              <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_mag colors_color_js"></div>
+                    <div class="colors_text">Caspian</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_ice colors_color_js"></div>
+                    <div class="colors_text">Cool Stone</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_red colors_color_js"></div>
+                    <div class="colors_text">Arctic Plain</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_jet colors_color_js"></div>
+                    <div class="colors_text">Luxuriant <br> Depth</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-1"></div>
+                    <div class="colors_text">Left-hand</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat wheel-1-2"></div>
+                    <div class="colors_text">Right-hand</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-1"></div>
+                    <div class="colors_text">Black</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-2"></div>
+                    <div class="colors_text">Black and Red (1)</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-3"></div>
+                    <div class="colors_text">Black and Red (2)</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color salon-1-4"></div>
+                    <div class="colors_text">Red</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="right_arrow arrow">
+                <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+              </div>
+              <div class="car_table_wrapper">
+                <div class="carrr">
+                  <div class="car-wrap car-wrap-1-1"><img src="./img/car-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-2"><img src="./img/car-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-3"><img src="./img/car-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="car-wrap car-wrap-1-4"><img src="./img/car-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="wheelll">
+                  <div class="wheel-wrap wheel-wrap-1-1"><img src="./img/wheel-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="wheel-wrap wheel-wrap-1-2"><img src="./img/wheel-1-2.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+                <div class="salonnn">
+                  <div class="salon-wrap salon-wrap-1-1"><img src="./img/salon-1-1.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-2"><img src="./img/salon-1-2.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-3"><img src="./img/salon-1-3.webp" alt="" class="car_create_car"/></div>
+                  <div class="salon-wrap salon-wrap-1-4"><img src="./img/salon-1-4.webp" alt="" class="car_create_car"/></div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="car-6" role="tabpanel" aria-labelledby="car-6-tab">
+        <div class="create_interface_wrapper" data-aos="fade-down">
+          <div class="create_container">
+            <div class="create_cont_headline" id="cat_text">Цвет</div>
+            <div class="colors_and_car_wrapper">
+              <div class="left_arrow arrow">
+                <img src="./img/left_arrow.svg" alt="" class="left_arrow_img" />
+              </div>
+              <div class="colors_table_wrapper colors_table_wrapper_js" data="color">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_mag colors_color_js"></div>
+                    <div class="colors_text">Magnetic</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_ice colors_color_js"></div>
+                    <div class="colors_text">Ice</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_red colors_color_js"></div>
+                    <div class="colors_text">Candy Red -<br />by Mulliner</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_jet colors_color_js"></div>
+                    <div class="colors_text">Jetstream II</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_alpine colors_color_js"></div>
+                    <div class="colors_text">Alpine Green</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color color_magnolia colors_color_js"></div>
+                    <div class="colors_text">Magnolia (Solid)</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper wheel_table_wrapper" data="wheel">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat"></div>
+                    <div class="colors_text">Left-hand</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color wheels_cat"></div>
+                    <div class="colors_text">Right-hand</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="colors_table_wrapper saloon_table_wrapper" data="saloon">
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color saloon_1"></div>
+                    <div class="colors_text">Black</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color saloon_2"></div>
+                    <div class="colors_text">Black and Red (1)</div>
+                  </div>
+                </div>
+                <div class="colors_line_wrapper">
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color saloon_3"></div>
+                    <div class="colors_text">Black and Red (2)</div>
+                  </div>
+                  <div class="colors_color_wrapper">
+                    <div class="colors_color saloon_color saloon_4"></div>
+                    <div class="colors_text">Red</div>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="right_arrow arrow">
+                <img src="./img/right_arrow.svg" alt="" class="right_arrow_img" />
+              </div>
+              <div class="car_table_wrapper">
+                <img src="./img/create_car.png" alt="" class="car_create_car" />
+              </div>
+            </div>
+          </div>
+          <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- <section class="create_interface_wrapper" data-aos="fade-down">
       <div class="create_container">
         <div class="create_cont_headline" id="cat_text">Цвет</div>
         <div class="colors_and_car_wrapper">
@@ -132,7 +770,9 @@
         </div>
       </div>
       <a class="price_btn" href="#ex1" rel="modal:open">Узнать цену</a>
-    </section>
+    </section> -->
+
+
     <div id="ex1" class="modal">
       <a href="#" rel="modal:close"></a>
       <div class="create_cont_headline know_price">Узнать цену</div>
@@ -184,6 +824,8 @@
           </div>
         </div>
       </div>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <!-- jQuery Modal -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>

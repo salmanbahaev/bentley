@@ -56,19 +56,81 @@ let nowData = "color";
 
 $(".right_arrow").click(function () {
   if (nowData == "color") {
-    $(".colors_table_wrapper_js").css("display", "none");
-    $(".wheel_table_wrapper").css("display", "block");
+    $(".colors_table_wrapper_js, .carrr").css("display", "none");
+    $(".wheel_table_wrapper, .wheelll").css("display", "block");
     nowData = "wheel";
     $("#cat_text").text("Руль");
   } else if (nowData == "wheel") {
-    $(".wheel_table_wrapper").css("display", "none");
-    $(".saloon_table_wrapper").css("display", "block");
+    $(".wheel_table_wrapper, .wheelll").css("display", "none");
+    $(".saloon_table_wrapper, .salonnn").css("display", "block");
     nowData = "saloon";
     $("#cat_text").text("Салон");
-  } else {
-    $(".colors_table_wrapper_js").css("display", "block");
-    $(".saloon_table_wrapper").css("display", "none");
+  } else if (nowData == "saloon") {
+    $(".colors_table_wrapper_js, .carrr").css("display", "block");
+    $(".saloon_table_wrapper, .salonnn").css("display", "none");
     nowData = "color";
     $("#cat_text").text("Цвет");
   }
+});
+
+$(".left_arrow").click(function () {
+  if (nowData == "color") {
+    $(".colors_table_wrapper_js, .carrr").css("display", "none");
+    $(".saloon_table_wrapper, .salonnn").css("display", "block");
+    nowData = "saloon";
+    $("#cat_text").text("Салон");
+  } else if (nowData == "wheel") {
+    $(".wheel_table_wrapper, .wheelll").css("display", "none");
+    $(".colors_table_wrapper_js, .carrr").css("display", "block");
+    nowData = "color";
+    $("#cat_text").text("Цвет");
+  } else if (nowData == "saloon") {
+    $(".saloon_table_wrapper, .salonnn").css("display", "none");
+    $(".wheel_table_wrapper, .wheelll").css("display", "block");
+    nowData = "wheel";
+    $("#cat_text").text("Руль");
+  } 
+});
+
+$('.color_mag').click(function() {
+  $(".car-wrap").css("display", "none");
+  $(".car-wrap-1-1").css("display", "block");
+});
+$('.color_ice').click(function() {
+  $(".car-wrap").css("display", "none");
+  $(".car-wrap-1-2").css("display", "block");
+});
+$('.color_red').click(function() {
+  $(".car-wrap").css("display", "none");
+  $(".car-wrap-1-3").css("display", "block");
+});
+$('.color_jet').click(function() {
+  $(".car-wrap").css("display", "none");
+  $(".car-wrap-1-4").css("display", "block");
+});
+
+$('.wheel-1-1').click(function() {
+  $(".wheel-wrap").css("display", "none");
+  $(".wheel-wrap-1-1").css("display", "block");
+});
+$('.wheel-1-2').click(function() {
+  $(".wheel-wrap").css("display", "none");
+  $(".wheel-wrap-1-2").css("display", "block");
+});
+
+$('.salon-1-1').click(function() {
+  $(".salon-wrap").css("display", "none");
+  $(".salon-wrap-1-1").css("display", "block");
+});
+$('.salon-1-2').click(function() {
+  $(".salon-wrap").css("display", "none");
+  $(".salon-wrap-1-2").css("display", "block");
+});
+$('.salon-1-3').click(function() {
+  $(".salon-wrap").css("display", "none");
+  $(".salon-wrap-1-3").css("display", "block");
+});
+$('.salon-1-4').click(function() {
+  $(".salon-wrap").css("display", "none");
+  $(".salon-wrap-1-4").css("display", "block");
 });
