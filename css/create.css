@@ -129,6 +129,38 @@
   background: #d6d1b8;
 }
 
+#car-2 .color_mag {
+  background: #939393;
+}
+#car-2 .color_ice {
+  background: #3f4c46;
+}
+#car-2 .color_red {
+  background: #9C978B;
+}
+#car-2 .color_jet {
+  background: #434441;
+}
+
+#car-3 .color_mag {
+  background: #333333;
+}
+#car-3 .color_ice {
+  background: #542928;
+}
+#car-3 .color_red {
+  background: #1C1C1C;
+}
+#car-3 .color_jet {
+  background: #666C2A;
+}
+#car-3 .color_alpine {
+  background: #B99973;
+}
+#car-3 .color_magnolia {
+  background: #2E5C6E;
+}
+
 .colors_and_car_wrapper {
   display: flex;
 }
@@ -223,6 +255,41 @@ body {
   background-image: url(../img/wheel-1-2.webp);
 }
 
+#car-2 .wheel-1-1 {
+  background-image: url(../img/wheel-2-1.webp);
+}
+#car-2 .wheel-1-2 {
+  background-image: url(../img/wheel-2-2.webp);
+}
+
+#car-3 .wheel-1-1 {
+  background-image: url(../img/wheel-3-1.webp);
+}
+#car-3 .wheel-1-2 {
+  background-image: url(../img/wheel-3-2.webp);
+}
+
+#car-4 .wheel-1-1 {
+  background-image: url(../img/wheel-4-1.webp);
+}
+#car-4 .wheel-1-2 {
+  background-image: url(../img/wheel-4-2.webp);
+}
+
+#car-5 .wheel-1-1 {
+  background-image: url(../img/wheel-5-1.webp);
+}
+#car-5 .wheel-1-2 {
+  background-image: url(../img/wheel-5-2.webp);
+}
+
+#car-6 .wheel-1-1 {
+  background-image: url(../img/wheel-6-1.webp);
+}
+#car-6 .wheel-1-2 {
+  background-image: url(../img/wheel-6-2.webp);
+}
+
 .saloon_color {
   width: 138px;
   height: 66px;
@@ -257,6 +324,72 @@ body {
   background-repeat: no-repeat;
   background-color: none;
 }
+
+#car-2 .salon-1-1 {
+  background-image: url(../img/salon-2-1.webp);
+}
+#car-2 .salon-1-2 {
+  background-image: url(../img/salon-2-2.webp);
+}
+#car-2 .salon-1-3 {
+  background-image: url(../img/salon-2-3.webp);
+}
+#car-2 .salon-1-4 {
+  background-image: url(../img/salon-2-4.webp);
+}
+
+#car-3 .salon-1-1 {
+  background-image: url(../img/salon-3-1.webp);
+}
+#car-3 .salon-1-2 {
+  background-image: url(../img/salon-3-2.webp);
+}
+#car-3 .salon-1-3 {
+  background-image: url(../img/salon-3-3.webp);
+}
+#car-3 .salon-1-4 {
+  background-image: url(../img/salon-3-4.webp);
+}
+
+#car-4 .salon-1-1 {
+  background-image: url(../img/salon-4-1.webp);
+}
+#car-4 .salon-1-2 {
+  background-image: url(../img/salon-4-2.webp);
+}
+#car-4 .salon-1-3 {
+  background-image: url(../img/salon-4-3.webp);
+}
+#car-4 .salon-1-4 {
+  background-image: url(../img/salon-4-4.webp);
+}
+
+#car-5 .salon-1-1 {
+  background-image: url(../img/salon-5-1.webp);
+}
+#car-5 .salon-1-2 {
+  background-image: url(../img/salon-5-2.webp);
+}
+#car-5 .salon-1-3 {
+  background-image: url(../img/salon-5-3.webp);
+}
+#car-5 .salon-1-4 {
+  background-image: url(../img/salon-5-4.webp);
+}
+
+#car-6 .salon-1-1 {
+  background-image: url(../img/salon-6-1.webp);
+}
+#car-6 .salon-1-2 {
+  background-image: url(../img/salon-6-2.webp);
+}
+#car-6 .salon-1-3 {
+  background-image: url(../img/salon-6-3.webp);
+}
+#car-6 .salon-1-4 {
+  background-image: url(../img/salon-6-4.webp);
+}
+
 .price_btn {
   display: block;
 }
