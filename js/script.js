@@ -38,99 +38,101 @@ $("#shpon").mouseleave(function () {
   $("#shpon_img").attr("src", "./img/elipse.svg");
 });
 
-$(".colors_color_js").click(function () {
-  $(".colors_color_js").removeClass("active_color");
+// ================== car-1
+
+$("#car-1 .colors_color_js").click(function () {
+  $("#car-1 .colors_color_js").removeClass("active_color");
   $(this).addClass("active_color");
 });
 
-$(".wheels_cat").click(function () {
-  $(".wheels_cat").removeClass("active_color");
+$("#car-1 .wheels_cat").click(function () {
+  $("#car-1 .wheels_cat").removeClass("active_color");
   $(this).addClass("active_color");
 });
-$(".saloon_color").click(function () {
-  $(".saloon_color").removeClass("active_color");
+$("#car-1 .saloon_color").click(function () {
+  $("#car-1 .saloon_color").removeClass("active_color");
   $(this).addClass("active_color");
 });
 
 let nowData = "color";
 
-$(".right_arrow").click(function () {
+$("#car-1 .right_arrow").click(function () {
   if (nowData == "color") {
-    $(".colors_table_wrapper_js, .carrr").css("display", "none");
-    $(".wheel_table_wrapper, .wheelll").css("display", "block");
+    $("#car-1 .colors_table_wrapper_js, #car-1 .carrr").css("display", "none");
+    $("#car-1 .wheel_table_wrapper, #car-1 .wheelll").css("display", "block");
     nowData = "wheel";
-    $("#cat_text").text("Руль");
+    $("#car-1 #cat_text").text("Руль");
   } else if (nowData == "wheel") {
-    $(".wheel_table_wrapper, .wheelll").css("display", "none");
-    $(".saloon_table_wrapper, .salonnn").css("display", "block");
+    $("#car-1 .wheel_table_wrapper, #car-1 .wheelll").css("display", "none");
+    $("#car-1 .saloon_table_wrapper, #car-1 .salonnn").css("display", "block");
     nowData = "saloon";
-    $("#cat_text").text("Салон");
+    $("#car-1 #cat_text").text("Салон");
   } else if (nowData == "saloon") {
-    $(".colors_table_wrapper_js, .carrr").css("display", "block");
-    $(".saloon_table_wrapper, .salonnn").css("display", "none");
+    $("#car-1 .colors_table_wrapper_js, #car-1 .carrr").css("display", "block");
+    $("#car-1 .saloon_table_wrapper, #car-1 .salonnn").css("display", "none");
     nowData = "color";
-    $("#cat_text").text("Цвет");
+    $("#car-1 #cat_text").text("Цвет");
   }
 });
 
-$(".left_arrow").click(function () {
+$("#car-1 .left_arrow").click(function () {
   if (nowData == "color") {
-    $(".colors_table_wrapper_js, .carrr").css("display", "none");
-    $(".saloon_table_wrapper, .salonnn").css("display", "block");
+    $("#car-1 .colors_table_wrapper_js, #car-1 .carrr").css("display", "none");
+    $("#car-1 .saloon_table_wrapper, #car-1 .salonnn").css("display", "block");
     nowData = "saloon";
-    $("#cat_text").text("Салон");
+    $("#car-1 #cat_text").text("Салон");
   } else if (nowData == "wheel") {
-    $(".wheel_table_wrapper, .wheelll").css("display", "none");
-    $(".colors_table_wrapper_js, .carrr").css("display", "block");
+    $("#car-1 .wheel_table_wrapper, #car-1 .wheelll").css("display", "none");
+    $("#car-1 .colors_table_wrapper_js, #car-1 .carrr").css("display", "block");
     nowData = "color";
-    $("#cat_text").text("Цвет");
+    $("#car-1 #cat_text").text("Цвет");
   } else if (nowData == "saloon") {
-    $(".saloon_table_wrapper, .salonnn").css("display", "none");
-    $(".wheel_table_wrapper, .wheelll").css("display", "block");
+    $("#car-1 .saloon_table_wrapper, #car-1 .salonnn").css("display", "none");
+    $("#car-1 .wheel_table_wrapper, #car-1 .wheelll").css("display", "block");
     nowData = "wheel";
-    $("#cat_text").text("Руль");
+    $("#car-1 #cat_text").text("Руль");
   } 
 });
 
-$('.color_mag').click(function() {
-  $(".car-wrap").css("display", "none");
-  $(".car-wrap-1-1").css("display", "block");
+$('#car-1 .color_mag').click(function() {
+  $("#car-1 .car-wrap").css("display", "none");
+  $("#car-1 .car-wrap-1-1").css("display", "block");
 });
-$('.color_ice').click(function() {
-  $(".car-wrap").css("display", "none");
-  $(".car-wrap-1-2").css("display", "block");
+$('#car-1 .color_ice').click(function() {
+  $("#car-1 .car-wrap").css("display", "none");
+  $("#car-1 .car-wrap-1-2").css("display", "block");
 });
-$('.color_red').click(function() {
-  $(".car-wrap").css("display", "none");
-  $(".car-wrap-1-3").css("display", "block");
+$('#car-1 .color_red').click(function() {
+  $("#car-1 .car-wrap").css("display", "none");
+  $("#car-1 .car-wrap-1-3").css("display", "block");
 });
-$('.color_jet').click(function() {
-  $(".car-wrap").css("display", "none");
-  $(".car-wrap-1-4").css("display", "block");
-});
-
-$('.wheel-1-1').click(function() {
-  $(".wheel-wrap").css("display", "none");
-  $(".wheel-wrap-1-1").css("display", "block");
-});
-$('.wheel-1-2').click(function() {
-  $(".wheel-wrap").css("display", "none");
-  $(".wheel-wrap-1-2").css("display", "block");
+$('#car-1 .color_jet').click(function() {
+  $("#car-1 .car-wrap").css("display", "none");
+  $("#car-1 .car-wrap-1-4").css("display", "block");
 });
 
-$('.salon-1-1').click(function() {
-  $(".salon-wrap").css("display", "none");
-  $(".salon-wrap-1-1").css("display", "block");
+$('#car-1 .wheel-1-1').click(function() {
+  $("#car-1 .wheel-wrap").css("display", "none");
+  $("#car-1 .wheel-wrap-1-1").css("display", "block");
 });
-$('.salon-1-2').click(function() {
-  $(".salon-wrap").css("display", "none");
-  $(".salon-wrap-1-2").css("display", "block");
+$('#car-1 .wheel-1-2').click(function() {
+  $("#car-1 .wheel-wrap").css("display", "none");
+  $("#car-1 .wheel-wrap-1-2").css("display", "block");
 });
-$('.salon-1-3').click(function() {
-  $(".salon-wrap").css("display", "none");
-  $(".salon-wrap-1-3").css("display", "block");
+
+$('#car-1 .salon-1-1').click(function() {
+  $("#car-1 .salon-wrap").css("display", "none");
+  $("#car-1 .salon-wrap-1-1").css("display", "block");
 });
-$('.salon-1-4').click(function() {
-  $(".salon-wrap").css("display", "none");
-  $(".salon-wrap-1-4").css("display", "block");
+$('#car-1 .salon-1-2').click(function() {
+  $("#car-1 .salon-wrap").css("display", "none");
+  $("#car-1 .salon-wrap-1-2").css("display", "block");
+});
+$('#car-1 .salon-1-3').click(function() {
+  $("#car-1 .salon-wrap").css("display", "none");
+  $("#car-1 .salon-wrap-1-3").css("display", "block");
+});
+$('#car-1 .salon-1-4').click(function() {
+  $("#car-1 .salon-wrap").css("display", "none");
+  $("#car-1 .salon-wrap-1-4").css("display", "block");
 });
