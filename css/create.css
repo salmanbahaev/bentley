@@ -161,6 +161,54 @@
   background: #2E5C6E;
 }
 
+#car-4 .color_mag {
+  background: #464155;
+}
+#car-4 .color_ice {
+  background: #B2A693;
+}
+#car-4 .color_red {
+  background: #959EA0;
+}
+#car-4 .color_jet {
+  background: #842A2D;
+}
+#car-4 .color_alpine {
+  background: #424C52;
+}
+
+#car-5 .color_mag {
+  background: #753E3D;
+}
+#car-5 .color_ice {
+  background: #414344;
+}
+#car-5 .color_red {
+  background: #682F0B;
+}
+#car-5 .color_jet {
+  background: #859AAA;
+}
+
+#car-6 .color_mag {
+  background: #542928;
+}
+#car-6 .color_ice {
+  background: #301419;
+}
+#car-6 .color_red {
+  background: #0D1E34;
+}
+#car-6 .color_jet {
+  background: #7B5B41;
+}
+#car-6 .color_alpine {
+  background: #C8D1D3;
+}
+#car-6 .color_magnolia {
+  background: #5F5F5F;
+}
+
 .colors_and_car_wrapper {
   display: flex;
 }

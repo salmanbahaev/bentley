@@ -408,6 +408,10 @@ $('#car-4 .color_jet').click(function() {
   $("#car-4 .car-wrap").css("display", "none");
   $("#car-4 .car-wrap-1-4").css("display", "block");
 });
+$('#car-4 .color_alpine').click(function() {
+  $("#car-4 .car-wrap").css("display", "none");
+  $("#car-4 .car-wrap-1-5").css("display", "block");
+});
 
 $('#car-4 .wheel-1-1').click(function() {
   $("#car-4 .wheel-wrap").css("display", "none");
@@ -601,6 +605,14 @@ $('#car-6 .color_red').click(function() {
 $('#car-6 .color_jet').click(function() {
   $("#car-6 .car-wrap").css("display", "none");
   $("#car-6 .car-wrap-1-4").css("display", "block");
+});
+$('#car-6 .color_alpine').click(function() {
+  $("#car-6 .car-wrap").css("display", "none");
+  $("#car-6 .car-wrap-1-5").css("display", "block");
+});
+$('#car-6 .color_magnolia').click(function() {
+  $("#car-6 .car-wrap").css("display", "none");
+  $("#car-6 .car-wrap-1-6").css("display", "block");
 });
 
 $('#car-6 .wheel-1-1').click(function() {
