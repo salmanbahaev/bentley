@@ -63,6 +63,8 @@ body {
 .main_nav_link:hover {
   transition: 0.3s;
   border-bottom: 1px solid #ffffff;
+  color: #fff;
+  text-decoration: none;
 }
 .main_big_logo_wrapper {
   position: absolute;
@@ -259,6 +261,8 @@ section {
 }
 .footer_link:hover {
   border-bottom: 1px solid #000000;
+  color: #000000;
+  text-decoration: none;
 }
 .footer_contacts {
   display: flex;

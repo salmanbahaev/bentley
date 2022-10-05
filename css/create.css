@@ -97,6 +97,10 @@
 .salon-wrap:not(:first-child) {
   display: none;
 }
+.salon-wrap, .wheel-wrap {
+  border-radius: 25px;
+  overflow: hidden;
+}
 .car-wrap:not(:first-child) {
   display: none;
 }
